@@ -2,13 +2,13 @@
 
 With this module, you can make a request to an endpoint list and map the response to a parameters object
 
-####Installing
+### Installing
 
 ```
 npm i web-map
 ```
 
-####Example
+### Example
 
 - Using the initial value: array_index = 2
 
