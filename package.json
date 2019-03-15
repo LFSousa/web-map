@@ -1,0 +1,31 @@
+{
+  "name": "web-map",
+  "version": "1.0.0",
+  "description": "With this module, you can make a request to an endpoint list and map the response to a parameters object",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LFSousa/web-map.git"
+  },
+  "keywords": [
+    "web",
+    "map",
+    "webmap",
+    "request",
+    "http",
+    "param",
+    "mapping"
+  ],
+  "author": "Luis Filipe Sousa (luis@filipe.xyz)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LFSousa/web-map/issues"
+  },
+  "homepage": "https://github.com/LFSousa/web-map#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
