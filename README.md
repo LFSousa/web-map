@@ -1,6 +1,9 @@
 # WEB MAP
+
 With this module, you can make a request to an endpoint list and map the response to a parameters object
+
 ###Installing
+
 ```
 npm i web-map
 ```
@@ -17,6 +20,7 @@ npm i web-map
     and map the employee info into new parameters
 
 3. Map the parameters extracted into a new structure
+
 
 ```
 let {Structure, Endpoints} = require('web-map');
