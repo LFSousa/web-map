@@ -77,8 +77,12 @@ Endpoints.prototype.extractParams = async function(values = {}) {
                     if(err) {
                         error(err);
                     }else {
-
-                        let req = JSON.parse(body);
+                        let req = {};
+                        try {
+                            req = JSON.parse(body);
+                        } catch(e){
+                            error(e);
+                        }
                         let param = endPoint.filled["params"];
 
                         Object.keys(param).forEach(key => {
@@ -108,7 +112,7 @@ Endpoints.prototype.extractParams = async function(values = {}) {
                         } 
                     }
                 });
-            });
+            }).catch(reject);
         });
     });
 

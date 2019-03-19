@@ -44,6 +44,6 @@ let struct = new Structure({
     sal: "${{emp_sal}}"
 })
 
-endpoints.extractParams({array_index: 2}).then(params => {
+endpoints.extractParams({array_indexa: -1}).then(params => {
     console.log(struct.fill(params).filled);
-});
+}).catch(console.log);
